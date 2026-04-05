@@ -1,0 +1,11 @@
+MVI A,0CH
+MOV B,A
+MVI A,04H
+MOV C,A
+MVI A,00H
+LOOP: ADD B
+            DCR C
+            JNZ LOOP
+
+STA 8001H
+HLT 
