@@ -1,0 +1,10 @@
+LDA 2000H
+MOV B,A
+MVI A,00H
+
+LOOP: ADD B
+            DCR B
+            JNZ LOOP
+
+STA 2001H
+HLT
