@@ -17,7 +17,7 @@ void delay(){
 void com(unsigned char c){
 	RS = 0;
 	RW = 0;
-	lcd = c;
+	lcd = c; 
 	EN = 1;
 	delay();
 	EN = 0;
