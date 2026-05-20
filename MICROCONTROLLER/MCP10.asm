@@ -1,6 +1,5 @@
 ORG 0000H
 
-
 MOV R0,#30H
 MOV A,#2BH
 MOV @R0,A
